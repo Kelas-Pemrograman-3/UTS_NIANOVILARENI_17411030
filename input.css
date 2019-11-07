@@ -1,0 +1,91 @@
+*{
+    
+    font-size: 25px;
+    font-family: Harrington;
+  }
+    
+  body{
+    background:#8a5757;
+    margin: 0;
+  }
+  h1{
+    font-size: 36px;
+    margin: 0;
+  }
+    #wrapper{
+        width: 950px;
+        margin: auto;
+        background-color:rgba(255,255,255,0.8);
+        border-radius: 50px;
+      }
+      #header{
+        height: auto;
+        background: transparent;
+        margin-top: 12%;
+      }
+   
+   
+   #login-box{
+       position: relative;
+       margin: 5% auto;
+       height: 500px;
+       width: 500px;
+       background-color: whitesmoke;
+       box-shadow: 0 2px 4px rgba (0,0,0,0,6);
+   }
+   h1 {
+       margin: 0 0 20px 0;
+       font-weight: 200;
+       font-size: 28px;
+   }
+   input[type="text"],
+   input[type="password"]{
+       display: block;
+       box-sizing:border-box;
+       margin-bottom: 20px;
+       padding:5px;
+       width:200px;
+       height:32px;
+       border: none;
+       outline: none;
+       border-bottom: 1px solid #03fcba;
+       font-family: Bold;
+       font-weight: 400px;
+       font-size: 15px;
+       transition: 0.2s ease;
+   }
+   
+   input [type="Simpan"] {
+       margin-bottom: 28px;
+       width: 120px;
+       height: 32px;
+       background: grey;
+       border: none;
+       border-radius: 2px;
+       color: peru;
+       font-family: sans-serif;
+       text-transform: uppercase;
+       transition: 0.2s ease;
+       cursor: pointer;
+   }
+   
+   input[type="Simpan"]:hover,
+   input [type="Simpan"] :focus {
+       background: grey;
+       transition: 0.2s ease;
+   }
+   
+   .right-box {
+       position: absolute;
+       top: 0;
+       right: 0;
+       box-sizing: border-box;
+       padding: 40px;
+       width: 400px;
+       height: 500px;
+       background-image: url(bg1.jpg);
+       background-size: cover;
+       background-position: center;
+   }
+   
+   
